@@ -1,0 +1,81 @@
+Git:
+Git is a version control system that helps developers track changes in their code over time.
+It allows multiple people to work on the same project simultaneously, making it easier to manage different
+versions of files, collaborate, and revert to earlier versions if needed.
+
+GitHub:
+GitHub, on the other hand, is a platform that hosts Git repositories in the cloud.
+It provides tools for collaboration, such as pull requests, issues, and project management features.
+
+Basic Commands:
+
+1, Initialize a new Git repository:
+git init
+
+2, Clone a repository:
+git clone <repository-url>
+
+3, Check the status of your repository:
+git status
+
+4, Add changes to the staging area:
+git add <file-name>
+
+5, or to add all changes:
+git add .
+
+6, Commit changes:
+git commit -m "Your commit message"
+
+7, View commit history:
+git log
+
+Branching:
+
+1, Create a new branch:
+git branch <branch-name>
+
+2, Switch to a branch:
+git checkout <branch-name>
+
+3, Create and switch to a new branch:
+git checkout -b <branch-name>
+
+4, List all branches:
+git branch
+
+5, Delete a branch:
+git branch -d <branch-name>
+
+6, Merging:
+
+7, Merge a branch into the current branch:
+git merge <branch-name>
+
+Remote Repositories:
+
+1, View remote repositories:
+git remote -v
+
+2, Add a remote repository:
+git remote add <name> <repository-url>
+
+3, Push changes to a remote repository:
+git push <remote-name> <branch-name>
+
+4, Fetch changes from a remote repository:
+git fetch <remote-name>
+
+5, Pull changes from a remote repository:
+git pull <remote-name> <branch-name>
+
+Undoing Changes:
+
+1, Unstage a file:
+git reset <file-name>
+
+2, Revert a commit:
+git revert <commit-id>
+
+3, Reset to a previous commit:
+git reset --hard <commit-id>
